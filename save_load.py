@@ -1,6 +1,5 @@
 import os
 import json
-import matplotlib.pyplot as plt
 from datetime import datetime
 from config import *
 

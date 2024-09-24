@@ -16,7 +16,7 @@ def run():
     state_dim = env.observation_space.shape[0]
     action_dim = env.action_space.n
     # 初始化智能体
-    agent = DQN(state_dim, action_dim)
+    agent = DQN(state_dim)
 
     # 训练智能体
     print("开始训练...")
